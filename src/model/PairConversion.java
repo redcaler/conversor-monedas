@@ -54,33 +54,15 @@ public class PairConversion {
 
     @Override
     public String toString(){
-        //El valor 25.e [USD] corresponde al valor final de =>>> 20293.75 [ARS]
+        // Definir un formato para imprimir la fecha y hora
+        DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss z");
+
+        String fechaLocalFormateada = (localTime != null) ? localTime.format(outputFormatter) : "N/A";
+
         return "El valor " + cantidad +
                 " [" + base_code + "] corresponde al valor final de =>>> " +
-                conversion_result + " [" + target_code + "] | Fecha consulta: " +
-                localTime.getDayOfMonth() + "/" +
-                localTime.getMonthValue() + "/" +
-                localTime.getYear() + ", " +
-                localTime.getHour() + ":" +
-                localTime.getMinute() + ".";
+                conversion_result + " [" + target_code +
+                "]\n\t| Última actualización de tasa: " + fechaLocalFormateada +
+                ", Próxima actualización: " + localTime.plusDays(1).format(outputFormatter);
     }
-//    @Override
-//    public String toString() {
-//        return "PairConversion{" +
-//                "localTime=[" +
-//                    localTime.getDayOfMonth() + " de " +
-//                    localTime.getMonth() + " de " +
-//                    localTime.getYear() + ", " +
-//                    localTime.getHour() + ":" +
-//                    localTime.getMinute() + ":" +
-//                    localTime.getSecond() + " " +
-//                    localTime.getZone() +
-//                "]" +
-//                ", base_code='" + base_code + '\'' +
-//                ", target_code='" + target_code + '\'' +
-//                ", conversion_rate=" + conversion_rate +
-//                ", conversion_result=" + conversion_result +
-//                '}';
-//    }
-
 }
