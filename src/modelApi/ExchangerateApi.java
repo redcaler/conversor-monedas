@@ -1,4 +1,4 @@
-package model;
+package modelApi;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -11,7 +11,6 @@ import java.time.ZonedDateTime;
 
 public class ExchangerateApi {
     private ZonedDateTime time_last_updated;
-//    private String base_code;
     private String simbolo;
     private String apikey = "fe229611d6107372e675a76c";
     private String monedaOrigen;

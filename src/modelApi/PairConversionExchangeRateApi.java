@@ -1,4 +1,4 @@
-package model;
+package modelApi;
 
 public record PairConversionExchangeRateApi(
     String time_last_update_utc,

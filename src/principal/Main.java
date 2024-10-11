@@ -1,7 +1,7 @@
 package principal;
 
-import model.ExchangerateApi;
-import model.PairConversion;
+import modelApi.ExchangerateApi;
+import modelApi.PairConversion;
 import utilidades.HistorialConversiones;
 import utilidades.MenuResult;
 

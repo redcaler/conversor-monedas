@@ -1,4 +1,4 @@
-package model;
+package modelApi;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
