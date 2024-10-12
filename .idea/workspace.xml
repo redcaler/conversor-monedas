@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab7b7ade-d64a-4937-9988-922083bd1b3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/principal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PairConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PairConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moneda.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +37,7 @@
     "Application.Main.executor": "Run",
     "Application.MainTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/eypan.YOGA/Documents/JavaPOO/5.challenge/conversor-moneda/gson-2.11.0.jar",
     "node.js.detected.package.eslint": "true",
@@ -102,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1728604806869</updated>
       <workItem from="1728604807793" duration="1604000" />
-      <workItem from="1728606881477" duration="15410000" />
+      <workItem from="1728606881477" duration="15726000" />
+      <workItem from="1728768637866" duration="2118000" />
     </task>
     <servers />
   </component>
